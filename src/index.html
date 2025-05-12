@@ -23,7 +23,7 @@
   <body>
     <header>
       <nav
-        class="border-b border border-solid border-black flex items-center justify-between px-[10rem] py-[20px]"
+        class="border-b border-b-black flex items-center justify-between px-[10rem] py-[20px]"
       >
         <section class="flex items-center">
           <div class="flex items-center">
@@ -91,11 +91,13 @@
       <section class="flex justify-between mx-[10rem]">
         <aside class="w-[25%]">
           <div>
-            <div class="flex items-center justify-between">
+            <div
+              class="flex items-center justify-between border-b border-b-[#E2E8F0] pb-[15px] mb-[10px]"
+            >
               <p class="text-[#0F172A]">Ratings</p>
               <i class="bx bx-chevron-up text-[24px] text-[#0F172A]"></i>
             </div>
-            <div class="grid grid-cols-5 w-[30%] gap-y-[15px]">
+            <div class="grid grid-cols-5 w-[30%] gap-y-[15px] mb-[20px]">
               <i class="bx bxs-star text-[20px] text-[gold]"></i
               ><i class="bx bxs-star text-[20px] text-[gold]"></i
               ><i class="bx bxs-star text-[20px] text-[gold]"></i
@@ -124,41 +126,49 @@
             </div>
           </div>
           <div>
-            <div class="flex items-center justify-between">
+            <div
+              class="flex items-center justify-between border-b border-b-[#E2E8F0] pb-[20px] mb-[10px]"
+            >
               <p>Number of Chapters</p>
-              <i class="bx bx-chevron-up"></i>
+              <i class="bx bx-chevron-up text-[24px] text-[#0F172A]"></i>
             </div>
-            <div>
-              <form class="flex items-center">
-                <input type="checkbox" class="mr-[5px]" />
+            <div class="flex flex-col gap-y-[15px]">
+              <form class="flex items-center gap-x-[15px]">
+                <input type="checkbox" class="w-[24px] h-[24px]" />
                 <p>1-10</p>
               </form>
-              <form class="flex items-center">
-                <input type="checkbox" />
+              <form class="flex items-center gap-x-[10px]">
+                <input type="checkbox" class="mr-[5px] w-[24px] h-[24px]" />
                 <p>10-15</p>
               </form>
-              <form class="flex items-center">
-                <input type="checkbox" />
+              <form class="flex items-center gap-x-[10px]">
+                <input type="checkbox" class="mr-[5px] w-[24px] h-[24px]" />
                 <p>15-20</p>
               </form>
-              <form class="flex items-center">
-                <input type="checkbox" />
+              <form class="flex items-center gap-x-[10px]">
+                <input type="checkbox" class="mr-[5px] w-[24px] h-[24px]" />
                 <p>20-25</p>
               </form>
-              <ul>
-                <li><a href="#">See More</a></li>
-                <i class="bx bx-chevron-down"></i>
+              <ul class="flex items-center gap-x-[5px] mt-[20px] mb-[35px]">
+                <li>
+                  <a href="#" class="text-[14px] text-[#2563EB]">See More</a>
+                </li>
+                <i class="bx bx-chevron-down text-[24px] text-[#2563EB]"></i>
               </ul>
             </div>
           </div>
           <div>
-            <div>
-              <p>Price</p>
-              <i class="bx bx-chevron-up"></i>
+            <div
+              class="flex items-center justify-between pb-[20px] border-b border-b-[#E2E8F0] mb-[20px]"
+            >
+              <p class="text-[#0F172A] font-[500]">Price</p>
+              <i class="bx bx-chevron-up text-[24px] text-[#0F172A]"></i>
             </div>
-            <div>
-              <p>Category</p>
-              <i class="bx bx-chevron-up"></i>
+            <div
+              class="flex items-center justify-between pb-[20px] border-b border-b-[#E2E8F0] mb-[20px]"
+            >
+              <p class="text-[#0F172A] font-[500]">Category</p>
+              <i class="bx bx-chevron-up text-[24px] text-[#0F172A]"></i>
             </div>
           </div>
         </aside>
@@ -408,205 +418,319 @@
               <h3 class="font-[600] text-[#0F172A] text-[20px]">$149.9</h3>
             </div>
           </div>
-          <div class="flex self-center justify-center">
-            <button>
+          <div class="flex self-center justify-center mt-[20px]">
+            <button class="border border-solid border-[#E2E8F0]">
               <i
-                class="bx bx-chevron-left text-[20px] font-[600] text-[#0F172A] px-[10px] py-[10px] border border-solid border-[#E2E8F0]"
+                class="bx bx-chevron-left text-[20px] font-[600] text-[#0F172A] px-[10px] py-[10px]"
               ></i>
             </button>
             <button
-              class="text-[16px] font-[600] text-[#0F172A] px-[10px] py-[10px] border border-solid border-[#E2E8F0]"
+              class="text-[16px] font-[600] text-[#0F172A] px-[20px] py-[10px] border border-solid border-[#E2E8F0]"
             >
               1
             </button>
             <button
-              class="text-[16px] font-[600] text-[#0F172A] px-[10px] py-[10px] border border-solid border-[#E2E8F0]"
+              class="text-[16px] font-[600] text-[#0F172A] px-[20px] py-[10px] border border-solid border-[#E2E8F0]"
             >
               2
             </button>
             <button
-              class="text-[16px] font-[600] text-[#0F172A] px-[10px] py-[10px] border border-solid border-[#E2E8F0]"
+              class="text-[16px] font-[600] text-[#0F172A] px-[20px] py-[10px] border border-solid border-[#E2E8F0]"
             >
               3
             </button>
             <button
-              class="text-[20px] font-[600] text-[#0F172A] px-[10px] py-[10px] border border-solid border-[#E2E8F0]"
+              class="text-[20px] font-[600] text-[#0F172A] border border-solid border-[#E2E8F0]"
             >
               <i
-                class="bx bx-chevron-right text-[20px] font-[600] text-[#0F172A] px-[10px] py-[10px] border border-solid border-[#E2E8F0]"
+                class="bx bx-chevron-right text-[20px] font-[600] text-[#0F172A] px-[10px] py-[10px]"
               ></i>
             </button>
           </div>
         </div>
       </section>
       <!-- Popular mentors section  -->
-      <section>
-        <label>Popular Mentors</label>
-        <div>
-          <div>
+      <section class="mt-[3rem] bg-[#F8FAFC] px-[10rem] py-[4rem]">
+        <p class="text-[24px] text-[#0F172A] font-semibold mb-[20px]">
+          Popular Mentors
+        </p>
+        <div class="flex items-center justify-between">
+          <div
+            class="px-[15px] py-[15px] border border-solid border-[#E2E8F0] rounded-[10px] flex flex-col items-center justify-center"
+          >
             <img src="./Rectangle 1136.png" alt="" />
-            <h3>Ronald Richard</h3>
-            <small>UI/UX Designer</small>
-            <div>
-              <div>
-                <i class="bx bxs-star"></i>
-                <h4>4.9</h4>
+            <h3 class="text-[18px] font-semibold text-[#0F172A] mt-[20px]">
+              Ronald Richard
+            </h3>
+            <small
+              class="text-[14px] font-[400] text-[#334155] mb-[10px] pb-[20px] border-b border-b-[#E2E8F0] w-[100%] flex items-center justify-center"
+              >UI/UX Designer</small
+            >
+            <div class="flex items-center justify-between w-[100%]">
+              <div class="flex items-center">
+                <i class="bx bxs-star text-[20px] text-[gold]"></i>
+                <h4 class="text-[12px] text-[#0F172A] font-semibold">4.9</h4>
               </div>
-              <span>2400 Students</span>
+              <span class="text-[12px] text-[#334155] font-semibold"
+                >2400 Students</span
+              >
             </div>
           </div>
-          <div>
+          <div
+            class="px-[15px] py-[15px] border border-solid border-[#E2E8F0] rounded-[10px] flex flex-col items-center justify-center"
+          >
             <img src="./Rectangle 1136.png" alt="" />
-            <h3>Ronald Richard</h3>
-            <small>UI/UX Designer</small>
-            <div>
-              <div>
-                <i class="bx bxs-star"></i>
-                <h4>4.9</h4>
+            <h3 class="text-[18px] font-semibold text-[#0F172A] mt-[20px]">
+              Ronald Richard
+            </h3>
+            <small
+              class="text-[14px] font-[400] text-[#334155] mb-[10px] pb-[20px] border-b border-b-[#E2E8F0] w-[100%] flex items-center justify-center"
+              >UI/UX Designer</small
+            >
+            <div class="flex items-center justify-between w-[100%]">
+              <div class="flex items-center">
+                <i class="bx bxs-star text-[20px] text-[gold]"></i>
+                <h4 class="text-[12px] text-[#0F172A] font-semibold">4.9</h4>
               </div>
-              <span>2400 Students</span>
+              <span class="text-[12px] text-[#334155] font-semibold"
+                >2400 Students</span
+              >
             </div>
           </div>
-          <div>
+          <div
+            class="px-[15px] py-[15px] border border-solid border-[#E2E8F0] rounded-[10px] flex flex-col items-center justify-center"
+          >
             <img src="./Rectangle 1136.png" alt="" />
-            <h3>Ronald Richard</h3>
-            <small>UI/UX Designer</small>
-            <div>
-              <div>
-                <i class="bx bxs-star"></i>
-                <h4>4.9</h4>
+            <h3 class="text-[18px] font-semibold text-[#0F172A] mt-[20px]">
+              Ronald Richard
+            </h3>
+            <small
+              class="text-[14px] font-[400] text-[#334155] mb-[10px] pb-[20px] border-b border-b-[#E2E8F0] w-[100%] flex items-center justify-center"
+              >UI/UX Designer</small
+            >
+            <div class="flex items-center justify-between w-[100%]">
+              <div class="flex items-center">
+                <i class="bx bxs-star text-[20px] text-[gold]"></i>
+                <h4 class="text-[12px] text-[#0F172A] font-semibold">4.9</h4>
               </div>
-              <span>2400 Students</span>
+              <span class="text-[12px] text-[#334155] font-semibold"
+                >2400 Students</span
+              >
             </div>
           </div>
-          <div>
+          <div
+            class="px-[15px] py-[15px] border border-solid border-[#E2E8F0] rounded-[10px] flex flex-col items-center justify-center"
+          >
             <img src="./Rectangle 1136.png" alt="" />
-            <h3>Ronald Richard</h3>
-            <small>UI/UX Designer</small>
-            <div>
-              <div>
-                <i class="bx bxs-star"></i>
-                <h4>4.9</h4>
+            <h3 class="text-[18px] font-semibold text-[#0F172A] mt-[20px]">
+              Ronald Richard
+            </h3>
+            <small
+              class="text-[14px] font-[400] text-[#334155] mb-[10px] pb-[20px] border-b border-b-[#E2E8F0] w-[100%] flex items-center justify-center"
+              >UI/UX Designer</small
+            >
+            <div class="flex items-center justify-between w-[100%]">
+              <div class="flex items-center">
+                <i class="bx bxs-star text-[20px] text-[gold]"></i>
+                <h4 class="text-[12px] text-[#0F172A] font-semibold">4.9</h4>
               </div>
-              <span>2400 Students</span>
+              <span class="text-[12px] text-[#334155] font-semibold"
+                >2400 Students</span
+              >
             </div>
           </div>
-          <div>
+          <div
+            class="px-[15px] py-[15px] border border-solid border-[#E2E8F0] rounded-[10px] flex flex-col items-center justify-center"
+          >
             <img src="./Rectangle 1136.png" alt="" />
-            <h3>Ronald Richard</h3>
-            <small>UI/UX Designer</small>
-            <div>
-              <div>
-                <i class="bx bxs-star"></i>
-                <h4>4.9</h4>
+            <h3 class="text-[18px] font-semibold text-[#0F172A] mt-[20px]">
+              Ronald Richard
+            </h3>
+            <small
+              class="text-[14px] font-[400] text-[#334155] mb-[10px] pb-[20px] border-b border-b-[#E2E8F0] w-[100%] flex items-center justify-center"
+              >UI/UX Designer</small
+            >
+            <div class="flex items-center justify-between w-[100%]">
+              <div class="flex items-center">
+                <i class="bx bxs-star text-[20px] text-[gold]"></i>
+                <h4 class="text-[12px] text-[#0F172A] font-semibold">4.9</h4>
               </div>
-              <span>2400 Students</span>
+              <span class="text-[12px] text-[#334155] font-semibold"
+                >2400 Students</span
+              >
             </div>
           </div>
         </div>
       </section>
 
       <!-- Featured courses section  -->
-      <section>
-        <label>Featured Courses</label>
-        <div>
-          <div>
+      <section class="mx-[10rem] mt-[4rem]">
+        <p class="text-[24px] text-[#0F172A] font-semibold mb-[20px]">
+          Featured Courses
+        </p>
+        <div class="flex items-center justify-between">
+          <div
+            class="border border-solid border-[#E2E8F0] rounded-[10px] px-[15px] py-[15px]"
+          >
             <img src="./Rectangle 1080.png" alt="" />
-            <h4>Beginners's Guide To Design</h4>
-            <small>By Ronald Richards</small>
-            <div>
+            <h4
+              class="text-[18px] text-[#0F172A] font-semibold mt-[20px] mb-[5px]"
+            >
+              Beginners's Guide To Design
+            </h4>
+            <small class="text-[14px] text-[#334155] font-[400]"
+              >By Ronald Richards</small
+            >
+            <div class="flex items-center mt-[5px]">
               <div>
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star text-[20px] text-[gold]"></i>
+                <i class="bx bxs-star text-[20px] text-[gold]"></i>
+                <i class="bx bxs-star text-[20px] text-[gold]"></i>
+                <i class="bx bxs-star text-[20px] text-[gold]"></i>
+                <i class="bx bxs-star text-[20px] text-[gold]"></i>
               </div>
-              <span>(1200 Ratings)</span>
+              <span class="font-semibold text-[#334155] text-[12px] ml-[10px]"
+                >(1200 Ratings)</span
+              >
             </div>
-            <small>22 Total Hours. 155 Lectures. Beginner</small>
-            <h3>$149.9</h3>
+            <small class="text-[14px] font-[400] text-[#334155]"
+              >22 Total Hours. 155 Lectures. Beginner</small
+            >
+            <h3 class="font-semibold text-[20px] text-[#0F172A] mt-[5px]">
+              $149.9
+            </h3>
           </div>
-          <div>
+          <div
+            class="border border-solid border-[#E2E8F0] rounded-[10px] px-[15px] py-[15px]"
+          >
             <img src="./Rectangle 1080.png" alt="" />
-            <h4>Beginners's Guide To Design</h4>
-            <small>By Ronald Richards</small>
-            <div>
+            <h4
+              class="text-[18px] text-[#0F172A] font-semibold mt-[20px] mb-[5px]"
+            >
+              Beginners's Guide To Design
+            </h4>
+            <small class="text-[14px] text-[#334155] font-[400]"
+              >By Ronald Richards</small
+            >
+            <div class="flex items-center mt-[5px]">
               <div>
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star text-[20px] text-[gold]"></i>
+                <i class="bx bxs-star text-[20px] text-[gold]"></i>
+                <i class="bx bxs-star text-[20px] text-[gold]"></i>
+                <i class="bx bxs-star text-[20px] text-[gold]"></i>
+                <i class="bx bxs-star text-[20px] text-[gold]"></i>
               </div>
-              <span>(1200 Ratings)</span>
+              <span class="font-semibold text-[#334155] text-[12px] ml-[10px]"
+                >(1200 Ratings)</span
+              >
             </div>
-            <small>22 Total Hours. 155 Lectures. Beginner</small>
-            <h3>$149.9</h3>
+            <small class="text-[14px] font-[400] text-[#334155]"
+              >22 Total Hours. 155 Lectures. Beginner</small
+            >
+            <h3 class="font-semibold text-[20px] text-[#0F172A] mt-[5px]">
+              $149.9
+            </h3>
           </div>
-          <div>
+          <div
+            class="border border-solid border-[#E2E8F0] rounded-[10px] px-[15px] py-[15px]"
+          >
             <img src="./Rectangle 1080.png" alt="" />
-            <h4>Beginners's Guide To Design</h4>
-            <small>By Ronald Richards</small>
-            <div>
+            <h4
+              class="text-[18px] text-[#0F172A] font-semibold mt-[20px] mb-[5px]"
+            >
+              Beginners's Guide To Design
+            </h4>
+            <small class="text-[14px] text-[#334155] font-[400]"
+              >By Ronald Richards</small
+            >
+            <div class="flex items-center mt-[5px]">
               <div>
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star text-[20px] text-[gold]"></i>
+                <i class="bx bxs-star text-[20px] text-[gold]"></i>
+                <i class="bx bxs-star text-[20px] text-[gold]"></i>
+                <i class="bx bxs-star text-[20px] text-[gold]"></i>
+                <i class="bx bxs-star text-[20px] text-[gold]"></i>
               </div>
-              <span>(1200 Ratings)</span>
+              <span class="font-semibold text-[#334155] text-[12px] ml-[10px]"
+                >(1200 Ratings)</span
+              >
             </div>
-            <small>22 Total Hours. 155 Lectures. Beginner</small>
-            <h3>$149.9</h3>
+            <small class="text-[14px] font-[400] text-[#334155]"
+              >22 Total Hours. 155 Lectures. Beginner</small
+            >
+            <h3 class="font-semibold text-[20px] text-[#0F172A] mt-[5px]">
+              $149.9
+            </h3>
           </div>
-          <div>
+          <div
+            class="border border-solid border-[#E2E8F0] rounded-[10px] px-[15px] py-[15px]"
+          >
             <img src="./Rectangle 1080.png" alt="" />
-            <h4>Beginners's Guide To Design</h4>
-            <small>By Ronald Richards</small>
-            <div>
+            <h4
+              class="text-[18px] text-[#0F172A] font-semibold mt-[20px] mb-[5px]"
+            >
+              Beginners's Guide To Design
+            </h4>
+            <small class="text-[14px] text-[#334155] font-[400]"
+              >By Ronald Richards</small
+            >
+            <div class="flex items-center mt-[5px]">
               <div>
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
-                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star text-[20px] text-[gold]"></i>
+                <i class="bx bxs-star text-[20px] text-[gold]"></i>
+                <i class="bx bxs-star text-[20px] text-[gold]"></i>
+                <i class="bx bxs-star text-[20px] text-[gold]"></i>
+                <i class="bx bxs-star text-[20px] text-[gold]"></i>
               </div>
-              <span>(1200 Ratings)</span>
+              <span class="font-semibold text-[#334155] text-[12px] ml-[10px]"
+                >(1200 Ratings)</span
+              >
             </div>
-            <small>22 Total Hours. 155 Lectures. Beginner</small>
-            <h3>$149.9</h3>
+            <small class="text-[14px] font-[400] text-[#334155]"
+              >22 Total Hours. 155 Lectures. Beginner</small
+            >
+            <h3 class="font-semibold text-[20px] text-[#0F172A] mt-[5px]">
+              $149.9
+            </h3>
           </div>
         </div>
       </section>
     </main>
     <!-- footer section  -->
-    <footer>
-      <section>
-        <img src="./logo.png" alt="Company Logo" />
+    <footer
+      class="bg-[#1E293B] px-[10rem] text-white flex items-start justify-between pt-[4rem] pb-[8rem] mt-[6rem]"
+    >
+      <section class="w-[416px]">
+        <div class="flex items-center mb-[20px]">
+          <img src="./logo.png" alt="Company Logo" />
+          <span class="text-[24px] font-medium">Byway</span>
+        </div>
         <div>
-          <p>
+          <p class="text-[14px] font-[400] text-[#CBD5E1]">
             Empowering learners through accessible and engaging online
             education.
           </p>
-          <p>
+          <p class="text-[14px] font-[400] text-[#CBD5E1]">
             Byway is a leading online learning platform dedicated to providing
             high-quality, flexible, and affordable educational experiences.
           </p>
         </div>
       </section>
       <section>
-        <p>Get Help</p>
-        <ul>
+        <p class="text-[18px] font-semibold mb-[10px]">Get Help</p>
+        <ul
+          class="text-[#CBD5E1] text-[14px] font-[500] flex flex-col gap-y-[10px]"
+        >
           <li><a href="#">Contact Us</a></li>
           <li><a href="#">Latest Articles</a></li>
           <li><a href="#">FAQ</a></li>
         </ul>
       </section>
       <section>
-        <p>Programs</p>
-        <ul>
+        <p class="text-[18px] font-semibold mb-[10px]">Programs</p>
+        <ul
+          class="text-[#CBD5E1] text-[14px] font-[500] flex flex-col gap-y-[10px]"
+        >
           <li><a href="#">Art & Design</a></li>
           <li><a href="#">Business</a></li>
           <li><a href="#">IT & Software</a></li>
@@ -615,17 +739,21 @@
         </ul>
       </section>
       <section>
-        <p>Contact Us</p>
-        <div class="social_details">
-          <a>Address: 123 Main Street, Anytown, CA 12345</a>
-          <a href="tel:+1234567890">Tel: +(123) 456-7890</a>
-          <a href="mailto:bywayedu@webkul.in">Mail: bywayedu@webkul.in</a>
-        </div>
-        <div class="social_links">
-          <i class="bx bxl-facebook"></i>
-          <i class="bx bxl-github"></i>
+        <p class="text-[18px] font-semibold mb-[10px]">Contact Us</p>
+        <ul
+          class="flex flex-col text-[#CBD5E1] text-[14px] font-[500] gap-y-[10px]"
+        >
+          <li><a href="#">Address: 123 Main Street, Anytown, CA 12345</a></li>
+          <li><a href="tel:+1234567890">Tel: +(123) 456-7890</a></li>
+          <li>
+            <a href="mailto:bywayedu@webkul.in">Mail: bywayedu@webkul.in</a>
+          </li>
+        </ul>
+        <div class="text-[40px] mt-[30px]">
+          <i class="bx bxl-facebook bg-blue-700 rounded-full"></i>
+          <i class="bx bxl-github bg-black rounded-full"></i>
           <i class="bx bxl-google"></i>
-          <i class="bx bxl-twitter"></i>
+          <i class="bx bxl-twitter text-blue-700"></i>
           <i class="bx bxl-microsoft"></i>
         </div>
       </section>
